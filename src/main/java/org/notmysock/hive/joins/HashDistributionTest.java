@@ -82,7 +82,7 @@ public class HashDistributionTest {
 
 
   public static void main(String[] args) throws Exception {
-    int values = 65;//*1000*1000; // customer db at 10Tb scale
+    int values = 65*1000*1000; // customer db at 10Tb scale
     if (args.length == 1) {
       values = Integer.parseInt(args[0]);
     }
